@@ -58,7 +58,7 @@ jobs:
       -
         name: Prepare
         id: prepare
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           INPUT_TEST-CASE: ${{ matrix.test-case }}
         with:
